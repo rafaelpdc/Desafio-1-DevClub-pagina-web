@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+    .lado-img{
+        display: inline-block;
+        height: 50vh;
+    }
+    .lado-texto{
+        height: 50vh;
+        display: inline-block;
+        margin-left: 96px;
+    }
+
+
+    header{
+        margin: 48px 0 209px 42px;
+
+    }
+    a{
+        margin-right:35px ;
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgb(33, 219, 12);
+    }
+    a:active{
+        color: rgba(33, 219, 12, 0.627)
+    }
+    button{
+        background-color: rgba(76, 181, 56, 1);
+        border:none;
+        color: #fff;
+        width: 124px;
+        height: 51px;
+        border-radius: 5px;
+    }
+    button:hover{
+        background-color: rgb(43, 165, 18);
+    }
+    button:active{
+       background-color:  rgba(77, 181, 56, 0.7);
+    }
+    img{
+        width: 595px;
+        height: 500px;
+        margin-left: 121px;
+    }
+    h1{
+        Width:582px;
+        Height:164px;
+        font-size: 62px;
+        font-weight: 700;
+        color: rgba(22, 26, 73, 1);
+        line-height: 62px;
+        
+    }
+    p{
+        width: 493px;
+        height: 99px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        margin: 47px 0 55px 0;
+    }
+    .learn-more{
+        Width:139px;
+        Height:27px;
+        color: rgba(111, 191, 68, 1);
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    .learn-more:hover{
+        color: red;
+    }
+
+    @media (max-width: 450px){
+        .nav-cel{
+            display: none;
+        }
+        .lado-texto{
+            height: 50vh;
+            margin: auto;
+        }
+        button{
+            position: absolute;
+            right: 10px;
+            width: 91px;
+            height: 31px;
+        }
+        img{
+            position: absolute;
+            bottom: 1px;
+            right: 0px;
+            Width:317px;
+            Height:288px;
+            margin: 29px;
+        }
+        h1{
+            width: 278px;
+            height: 60px;
+            font-size: 30px;
+            line-height: 39px;
+            text-align: center;
+        }
+        p{
+            width: 304px;
+            height: 165px;
+            font-size: 18px;
+            line-height: 33px;
+            text-align: center;
+            position: relative;
+            
+            
+            
+        }
+        .learn-more{
+            text-align: center;
+            margin: 0 auto ;
+            
+            
+        } 
+        
+    }
+
+    

@@ -13,4 +13,5 @@
 </ul>
 <h2>Resultado</h2>
 <img src="https://github.com/rafaelpdc/wide-coverage-Location-DevClub/blob/master/img/primeiro-projeto.PNG"/>
+<img src="https://github.com/rafaelpdc/wide-coverage-Location-DevClub/blob/master/img/primeiro-projeto-celular.PNG" />
 
